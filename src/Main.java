@@ -79,7 +79,9 @@ System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CAR >>>>>>>>>>>>>>>>>>>>>>
         Person[] people = {person2, person};
 
         for (Person f: people){
-            System.out.println(f);
+            System.out.println("getName:  "+f.getName());
+            System.out.println("getAge;  "+f.getAge());
+            System.out.println("getProfession: "+f.getProfession()+"\n");
         }
 
 

@@ -20,7 +20,7 @@ public class Car {
         return "name: "+car_name+"\n"+
                 "compony: "+compony+"\n"+
                 "color: "+color+"\n"+
-                "price: "+price;
+                "price: "+price+"\n";
     }
 
 
