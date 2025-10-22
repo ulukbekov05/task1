@@ -12,9 +12,5 @@ public class University {
     public int getCount_student(){return count_student;}
     public void setCount_student(int count_student){this.count_student=count_student;}
 
-    public String toString(){
-        return "name: "+uni_name+"\n"+
-                "city: "+city+"\n"+
-                "count: "+count_student+"\n";
-    }
+
 }

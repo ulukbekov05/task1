@@ -20,7 +20,9 @@ public class Main {
 
         University[] universities = {university1, university2, university3};
         for (University uni : universities){
-            System.out.println(uni);
+            System.out.println("name: "+uni.getUni_name());
+            System.out.println("city: "+uni.getCity());
+            System.out.println("student: "+uni.getCount_student()+"\n");
         }
 System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
@@ -39,7 +41,11 @@ System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CAR >>>>>>>>>>>>>>>>>>>>>>
 
         Car[]  cars   = {car1,   car2};
         for (Car MASH: cars){
-           System.out.println(MASH);
+           System.out.println("car_name: "+MASH.getCar_name());
+           System.out.println("compony: "+MASH.getCompony());
+           System.out.println("color: "+MASH.getColor());
+           System.out.println("price: "+MASH.getPrice()+"\n");
+
        }
 
     System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SCHOOL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -61,7 +67,9 @@ System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CAR >>>>>>>>>>>>>>>>>>>>>>
 
         School[] schools = {school, school2, school3};
         for (School sch : schools){
-            System.out.println(sch);
+            System.out.println("name: "+sch.getName());
+            System.out.println("city: "+sch.getCity());
+            System.out.println("all students: "+sch.getStudentCount()+"\n");
         }
 
     System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PERSON>>>>>>>>>>>>>>>>>>>>>>>>>>");

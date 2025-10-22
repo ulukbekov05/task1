@@ -16,12 +16,7 @@ public class Car {
     public int getPrice(){return price;}
     public void setPrice(int price){this.price=price;}
 
-    public String toString(){
-        return "name: "+car_name+"\n"+
-                "compony: "+compony+"\n"+
-                "color: "+color+"\n"+
-                "price: "+price+"\n";
-    }
+
 
 
 }

@@ -27,8 +27,6 @@ public class School {
         this.studentCount = studentCount;
     }
 
-    public String toString() {
-        return "School{name='" + name + "', city='" + city + "', studentCount=" + studentCount + "}";
-    }
+
 
 }

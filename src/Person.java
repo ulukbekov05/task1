@@ -12,7 +12,5 @@ public class Person {
     public String getProfession(){return profession;}
     public void setProfession(String profession){this.profession=profession;}
 
-    public String toString(){
-        return "Person{name='" + name + "', age='" + age + "', profession=" + profession + "}";
-    }
+
 }
